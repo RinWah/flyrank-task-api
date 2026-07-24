@@ -1,0 +1,7 @@
+﻿Lib/
+Scripts/
+__pycache__/
+pyvenv.cfg
+Include/
+*.json
+
