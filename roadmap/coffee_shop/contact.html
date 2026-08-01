@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <title>coffee shop</title>
+    </head>
+    <body>
+        <header>
+            <h1>rin's coffee shop</h1>
+            <nav>
+                <a href="index.html">home</a>
+            </nav>
+        </header>
+        <main>
+            <h2 id="contact">contact</h2>
+            
+            <section>
+                <h2>rin</h2>
+                <p>phone: +1 (862) 395-8399</p>
+            </section>
+
+            <section>
+                <h2>message us here</h2>
+                <form action="/submit" method="POST">
+                    <fieldset>
+                        <legend>your information</legend>
+                        <label for="name">name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">send</button>
+                    </fieldset>
+                </form>
+        </main>
+        <footer>
+            <p>copyright 2026</p>
+            <p>contact</p>
+        </footer>
+    </body>
+</html>

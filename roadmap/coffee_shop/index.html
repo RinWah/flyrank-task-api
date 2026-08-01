@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <title>coffee shop</title>
+    </head>
+    <body>
+        <header>
+            <div itemtype="https://schema.org/LocalBusiness">
+                <header>
+                    <h1 itemprop="name">rin's coffee shop</h1>
+                </header>
+                <nav>
+                    <a href="#hours">hours</a>
+                    <a href="#reviews">reviews</a>
+                </nav>
+            </header>
+            <main>
+                <h2 id="hours" itemprop="hours">hours</h2>
+                <ul>
+                    <li itemprop="openingHoursSpecification"
+                            itemtype="https://schema.org/OpeningHoursSpecification">
+                        <span itemprop="dayOfWeek">monday-friday</span>
+                        <span itemprop="opens">08:00</span>
+                        <span itemprop="closes">16:00</span>
+                    </li>
+                    <li itemprop="openingHoursSpecification"
+                        itemtype="https://schema.org/OpeningHoursSpecification">
+                        <span itemprop="dayOfWeek">saturday-sunday</span>
+                        <span itemprop="opens">09:00</span>
+                        <span itemprop="closes">15:00</span>
+                    </li>
+                </ul>
+                <h2 id="reviews">recent reviews</h2>
+                <article>
+                    <h3>amazing matcha!</h3>
+                    <p itemprop="review">i just went here yesterday and i love their matcha! imported directly from china, amazing quality and very sweet but grassy</p>
+                </article>
+                <article>
+                    <h3>wish they had pastries</h3>
+                    <p>i'm so far away. i wish they had pastries so i could sit there for an entire day instead of just getting a drink and leaving.</p>
+                </article>
+                <article>
+                    <h3>family business!</h3>
+                    <p>idk why but i thought this was a chain business. turns out it's just a cute family business. they care about what they do and they have great pricing.</p>
+                </article>
+
+                <section>
+                    <h2>menu</h2>
+                    <ul>
+                        <li>matcha</li>
+                        <li>shaken espresso</li>
+                        <li>chocolate milk</li>
+                        <li>water</li>
+                        <li>oolong tea</li>
+                    </ul>
+                </section>
+            </main>
+            <footer>
+                <p>copyright 2026</p>
+                <p itemprop="telephone">+1 (862) 395-8399</p>
+                <p itemprop="address" itemtype="https://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">123 main st</span>,
+                    <span itemprop="addressLocality"richmond</span>,
+                    <span itemprop="addressRegion">va</span>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
